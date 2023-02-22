@@ -171,6 +171,7 @@ const Order =({ST_CurrentPrice,userEth,userEntaToken,userBebToken,userLeoToken,t
                         stName === 'BEBToken'?Number(sellMaxST_2).toFixed(3):
                         stName === 'LEOToken'?Number(sellMaxST_3).toFixed(3):0} {stName.slice(0,stName.length-5)}</h5>
                 </button>
+
             </div>
         </form>
         <div className='assets'>
